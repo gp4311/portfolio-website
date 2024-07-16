@@ -15,6 +15,6 @@ I am a Systems Design Engineering student passionate about software development 
 ## Technologies Used
 
 - HTML5
-- CSS3
+- Tailwind CSS
 - JavaScript
 - React

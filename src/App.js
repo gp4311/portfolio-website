@@ -4,6 +4,8 @@ import Home from './pages/home'
 import About from './pages/about'
 import Projects from './pages/projects'
 import Contact from './pages/contact'
+import Navbar from './components/navbar';
+import Footer from './components/footer';
 
 // Navigation
 export const pages = [
@@ -32,7 +34,9 @@ export const pages = [
 function App() {
   return (
     <div>
-      <div className='w-full min-h-screen'>
+      <Navbar/>
+
+      <div className='w-full min-h-screen py-20'>
         <Routes>
           {
             pages.map((item) => (
@@ -41,6 +45,8 @@ function App() {
           }
         </Routes>
       </div>
+
+      <Footer />
     </div>
   )
 }
