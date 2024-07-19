@@ -1,0 +1,49 @@
+@keyframes dissolve {
+    0% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 0;
+    }
+}
+
+@keyframes appear {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+.svg-container {
+    position: relative;
+    width: 50px;
+    height: 50px;
+}
+
+.svg-container svg {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.svg-container .group1 {
+    opacity: 1;
+    transition: opacity 1s;
+}
+
+.svg-container .group2 {
+    opacity: 0;
+    transition: opacity 1s;
+}
+
+.svg-container:hover .group1 {
+    opacity: 0;
+}
+
+.svg-container:hover .group2 {
+    opacity: 1;
+}

@@ -36,7 +36,7 @@ function App() {
     <div>
       <Navbar/>
 
-      <div className='w-full min-h-screen py-20'>
+      <div className='w-full min-h-screen pt-20'>
         <Routes>
           {
             pages.map((item) => (
