@@ -31,7 +31,10 @@ export const avatarDescription = 'I\'m passionate about coding and creating thin
 export const avatarPosition = <>Systems Design Engineering Student @ <span className='font-semibold text-color-3c'>UWaterloo</span></>;
 
 // Footer
-export const footer = <>Developed in <span className='italic'>Visual Studio Code</span>. Built with <span className='italic'>React</span> and <span className='italic'>Tailwind CSS</span>, and deployed via <span className='italic'>Vercel</span>. Text set in Amaranth and Roboto fonts.</>;
+export const footer = <>Developed in <span className='italic'>Visual Studio Code</span>. Built with <span className='italic'>React</span> and <span className='italic'>Tailwind CSS</span>, and deployed via <span className='italic'>Vercel</span>. Text set in Calistoga and IBM Plex Sans fonts.</>;
+
+// Resume
+export const resumeUrl = 'https://drive.google.com/file/d/1W9Jszl7nj3eG4foTrvmvIOJXuV16toEA/view?usp=sharing';
 
 // Social
 export const social = [
@@ -50,10 +53,11 @@ export const social = [
 ];
 
 // Experience
-export const experience = [
+export const experiences = [
     {
         position: 'Information Systems Co-op Analyst',
         company: 'Toyota Motors Manufacturing Canada',
+        link: 'https://tmmc.ca/en/',
         description: 'I contributed to the development of a software system for monitoring and analyzing real-time data from robotic systems. I redesigned the backend of the application, migrating it from SQLite to Redis to enhance performance and scalability, and containerized the backend for deployment.',
         start: 'May 2024',
         end: 'Present',
@@ -62,6 +66,7 @@ export const experience = [
     {
         position: 'Software Developer Intern',
         company: 'Alstom',
+        link: 'https://www.alstom.com/alstom-brazil',
         description: 'I primarily created the frontend of the web-based Train Management System (TMS) for São Paulo Metro\'s Monorail System. I also contributed to backend development, gaining valuable experience in both frontend and backend technologies.',
         start: 'Sep 2023',
         end: 'Dec 2023',
@@ -70,17 +75,26 @@ export const experience = [
     {
         position: 'Software Developer Intern',
         company: 'Alstom',
+        link: 'https://www.alstom.com/press-releases-news/2023/11/alstom-and-partners-celebrate-launch-edmonton-valley-line-southeast-lrt',
         description: 'Developed a critical algorithm for Edmonton\'s Valley Line Southeast LRT project.',
         start: 'Jan 2023',
         end: 'Apr 2023',
-        technologies: ['C#', '.NET', 'SCADA', 'CLI']
+        technologies: ['Algorithm Development', 'C#', '.NET', 'SCADA']
+    }
+];
+
+// Projects
+export const projects = [
+    {
+        name: 'Portfolio Website',
+        description: <>I designed and developed this portfolio website using <span className='italic'>React</span> and <span className='italic'>Tailwind CSS</span>.</>,
+        githubRepo: 'https://github.com/gp4311/portfolio-website',
+        image: '/images/portfolio-website.png'
     },
     {
-        position: 'Software Development Intern',
-        company: 'TaxTron Inc.',
-        description: 'Led the successful redesign of the company\'s website to enhance user experience and drive engagement.',
-        start: 'Jul 2021',
-        end: 'Aug 2021',
-        technologies: ['Node.js', 'Javascript', 'HTML', 'CSS']
-    },
+        name: 'Tetris',
+        description: <>I recreated Tetris using <a href='https://processing.org/' target='_blank' rel='noreferrer' className='italic text-color-2c hover:underline'>Processing</a> and <span className='italic'>Java</span>.</>,
+        githubRepo: 'https://github.com/gp4311/tetris',
+        image: '/images/tetris.png'
+    }
 ];

@@ -5,9 +5,8 @@ module.exports = {
   ],
   theme: {
     colors: {
-      'background-color':'#ffffff',
+      'background-color':'#f8f8f8',
 
-      'nav-background-color':'#f4f4f4',
       'nav-text-color':'#999999',
       'nav-text-color-selected':'#404040',
 
@@ -40,8 +39,8 @@ module.exports = {
       'main-text-color-1':'#404040',
     },
     fontFamily: {
-      'heading':['Amaranth', 'sans-serif'],
-      'body':['Roboto', 'serif'],
+      'heading':['Calistoga', 'sans-serif'],
+      'body':['IBM Plex Sans', 'serif'],
     },
     extend: {},
   },
