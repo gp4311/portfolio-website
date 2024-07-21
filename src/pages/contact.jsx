@@ -4,7 +4,7 @@ import { social } from '../data'
 
 const Contact = () => {
     return (
-        <div className='bg-background-color p-10'>
+        <div className='p-10'>
             <section id='form' className='flex flex-col justify-center items-center pb-10 gap-10'>
                 <div className='pt-10 text-main-text-color-1 text-center'>
                     <h1 className='font-heading text-3xl'>Let's stay connected!</h1>

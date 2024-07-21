@@ -38,7 +38,7 @@ function App() {
       <Navbar />
       
       <ScrollToTop>
-        <div className='w-full min-h-screen pt-20'>
+        <div className='w-full min-h-screen bg-background-color pt-20'>
 
           <Routes>
             {

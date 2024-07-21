@@ -36,15 +36,15 @@ export const resumeUrl = 'https://drive.google.com/file/d/1W9Jszl7nj3eG4foTrvmvI
 // Social
 export const social = [
     {
-        icon: <MdEmail size={30}/>,
+        icon: <MdEmail size={30} />,
         to: 'mailto:gpahwa@uwaterloo.ca'
     },
     {
-        icon: <FaLinkedin size={30}/>,
+        icon: <FaLinkedin size={30} />,
         to: 'https://www.linkedin.com/in/gehnaa-pahwa/'
     },
     {
-        icon: <FaGithub size={30}/>,
+        icon: <FaGithub size={30} />,
         to: 'https://github.com/gp4311'
     }
 ];
@@ -86,12 +86,14 @@ export const projects = [
         name: 'Portfolio Website',
         description: <>I designed and developed this portfolio website using <span className='italic'>React</span> and <span className='italic'>Tailwind CSS</span>.</>,
         githubRepo: 'https://github.com/gp4311/portfolio-website',
+        technologies: ['React', 'Javascript', 'Tailwind CSS', 'UX/UI'],
         image: '/images/portfolio-website.png'
     },
     {
         name: 'Tetris',
         description: <>I recreated Tetris using <a href='https://processing.org/' target='_blank' rel='noreferrer' className='italic text-color-2c hover:underline'>Processing</a> and <span className='italic'>Java</span>.</>,
         githubRepo: 'https://github.com/gp4311/tetris',
+        technologies: ['Processing', 'Java'],
         image: '/images/tetris.png'
     }
 ];

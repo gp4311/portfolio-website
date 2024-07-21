@@ -16,7 +16,8 @@ module.exports = {
       'color-1d':'#fcd560',
       'color-1e':'#fed049',
 
-      'color-2a': '#f8bac6',
+      'color-2-light':'#fad1d9',
+      'color-2a':'#f8bac6',
       'color-2b':'#f38ca1',
       'color-2c':'#e46e88',
       'color-2d':'#d5506f',

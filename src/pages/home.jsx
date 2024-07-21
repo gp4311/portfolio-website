@@ -13,7 +13,7 @@ const Home = () => {
                 <Avatar />
             </section>
 
-            <section id='experience' className='w-full bg-color-1c p-10 flex flex-col gap-5'>
+            <section id='experience' className='w-full bg-color-3a p-10 flex flex-col gap-5'>
                 <div className='text-5xl font-heading py-4 text-main-text-color-1'>Experience</div>
                 <Experience />
                 <div className='pt-5 text-center'>
@@ -21,7 +21,7 @@ const Home = () => {
                 </div>
             </section>
             
-            <section id='projects' className='w-full bg-color-2a p-10 flex flex-col gap-5'>
+            <section id='projects' className='w-full bg-color-2-light p-10 flex flex-col gap-5'>
                 <div className='text-5xl font-heading py-4 text-main-text-color-1'>Projects</div>
                 <Projects projects={projects.length < 6 ? projects : projects.slice(0, 6)}/>
                 <div className='pt-5 text-center'>

@@ -8,7 +8,7 @@ const Projects = ({ projects }) => {
             {
                 projects ? projects.map((project, key) => (
                     <div key={key} className='group bg-background-color border-main-text-color-1 border-[2px] rounded-lg p-5 m-3'>
-                        <img src={project.image} alt='' className='object-cover object-top w-full h-[200px] rounded-lg mb-5 grayscale group-hover:grayscale-0 transition duration-500'></img>
+                        <img src={project.image} alt='' className='object-contain object-top w-full h-[200px] rounded-lg mb-5 grayscale group-hover:grayscale-0 transition duration-500'></img>
 
                         <div className='flex justify-between'>
                             <h1 className='text-xl font-bold text-center'>{project.name}</h1>
