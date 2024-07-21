@@ -1,9 +1,6 @@
 // Icons
-import {
-    FiMail,
-    FiGithub
-} from "react-icons/fi";
-import { TfiLinkedin } from "react-icons/tfi";
+import { FaGithub, FaLinkedin } from "react-icons/fa";
+import { MdEmail } from "react-icons/md";
 
 // Navigation
 export const navigation = [
@@ -39,15 +36,15 @@ export const resumeUrl = 'https://drive.google.com/file/d/1W9Jszl7nj3eG4foTrvmvI
 // Social
 export const social = [
     {
-        icon: <FiMail />,
+        icon: <MdEmail size={30}/>,
         to: 'mailto:gpahwa@uwaterloo.ca'
     },
     {
-        icon: <TfiLinkedin />,
+        icon: <FaLinkedin size={30}/>,
         to: 'https://www.linkedin.com/in/gehnaa-pahwa/'
     },
     {
-        icon: <FiGithub />,
+        icon: <FaGithub size={30}/>,
         to: 'https://github.com/gp4311'
     }
 ];
@@ -98,3 +95,6 @@ export const projects = [
         image: '/images/tetris.png'
     }
 ];
+
+// Contact form
+export const formspreeEndpoint = 'https://formspree.io/f/xnnanjvw';

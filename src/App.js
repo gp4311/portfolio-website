@@ -6,6 +6,7 @@ import Projects from './pages/projects'
 import Contact from './pages/contact'
 import Navbar from './components/navbar';
 import Footer from './components/footer';
+import ScrollToTop from './components/scrollToTop';
 
 // Navigation
 export const pages = [
@@ -34,17 +35,21 @@ export const pages = [
 function App() {
   return (
     <div>
-      <Navbar/>
+      <Navbar />
+      
+      <ScrollToTop>
+        <div className='w-full min-h-screen pt-20'>
 
-      <div className='w-full min-h-screen pt-20'>
-        <Routes>
-          {
-            pages.map((item) => (
-              <Route index key={item.label} path={item.to} element={item.element} />
-            ))
-          }
-        </Routes>
-      </div>
+          <Routes>
+            {
+              pages.map((item) => (
+                <Route index key={item.label} path={item.to} element={item.element} />
+              ))
+            }
+          </Routes>
+
+        </div>
+      </ScrollToTop>
 
       <Footer />
     </div>
