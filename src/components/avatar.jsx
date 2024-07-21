@@ -9,7 +9,7 @@ const Avatar = () => {
                 <AvatarSvg />
             </div>
             <div className='max-w-[500px] flex flex-col gap-2'>
-                <div className='text-4xl text-center font-heading py-4 text-main-text-color-1 md:text-6xl md:text-left'>
+                <div className='text-4xl text-center font-heading py-4 text-text-color md:text-6xl md:text-left'>
                     {avatarHeader}
                 </div>
                 <p className='text-xl font-body'>

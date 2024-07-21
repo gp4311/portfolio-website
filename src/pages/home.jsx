@@ -9,20 +9,26 @@ import { projects } from '../data';
 const Home = () => {
     return (
         <div>
-            <section id='introduction' className='w-full h-[calc(100vh-80px)] bg-background-color p-10 flex flex-col justify-center items-center gap-20'>
+            <section id='introduction' className='w-full h-[calc(100vh-80px)] p-10 flex flex-col justify-center items-center gap-20'>
                 <Avatar />
             </section>
 
-            <section id='experience' className='w-full bg-color-3a p-10 flex flex-col gap-5'>
-                <div className='text-5xl font-heading py-4 text-main-text-color-1'>Experience</div>
+            <section id='experience' className='w-full p-10 flex flex-col gap-5'>
+                <div className='w-fit'>
+                    <h1 className='text-5xl font-heading py-4 text-text-color'>Experience</h1>
+                    <hr className='w-2/5 text-color-3b border-2'></hr>
+                </div>
                 <Experience />
                 <div className='pt-5 text-center'>
                     <Button text='view my résumé' link={resumeUrl} external={true} />
                 </div>
             </section>
             
-            <section id='projects' className='w-full bg-color-2-light p-10 flex flex-col gap-5'>
-                <div className='text-5xl font-heading py-4 text-main-text-color-1'>Projects</div>
+            <section id='projects' className='w-full p-10 flex flex-col gap-5'>
+            <div className='w-fit'>
+                    <h1 className='text-5xl font-heading py-4 text-text-color'>Projects</h1>
+                    <hr className='w-2/5 text-color-2b border-2'></hr>
+                </div>
                 <Projects projects={projects.length < 6 ? projects : projects.slice(0, 6)}/>
                 <div className='pt-5 text-center'>
                     <Button text='view all projects' link='/projects' external={false} />

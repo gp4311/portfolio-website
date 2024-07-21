@@ -25,7 +25,7 @@ export const navigation = [
 // Avatar
 export const avatarHeader = 'Hi, I\'m Gehnaa!';
 export const avatarDescription = 'I\'m passionate about coding and creating things that make a positive impact.';
-export const avatarPosition = <>Systems Design Engineering Student @ <span className='font-semibold text-color-3c'>UWaterloo</span></>;
+export const avatarPosition = <>Systems Design Engineering Student @ <span className='font-semibold text-color-1b'>UWaterloo</span></>;
 
 // Footer
 export const footer = <>Developed in <span className='italic'>Visual Studio Code</span>. Built with <span className='italic'>React</span> and <span className='italic'>Tailwind CSS</span>, and deployed via <span className='italic'>Vercel</span>. Text set in Calistoga and IBM Plex Sans fonts.</>;
@@ -97,6 +97,18 @@ export const projects = [
         image: '/images/tetris.png'
     }
 ];
+
+// About me
+export const aboutIntroduction = <><span className='font-bold text-color-2d'>Hi, I'm Gehnaa! &#128075; </span> <br></br>I love tackling complex problems and creating cool things—whether that's <span className='text-color-2d'>apps</span>, <span className='text-color-2d'>websites</span>, or <span className='text-color-2d'>systems.</span></>;
+export const aboutSchool = <>I'm currently a <span className='font-bold text-color-2d'>Systems Design Engineering</span> student at the University of Waterloo. I chose this field because it gives me a chance to learn about all sorts of engineering disciplines, giving me a broad view of technology and innovation.</>;
+export const aboutWork = <>I've had some awesome experiences working at <span className='font-bold text-color-2d'>Alstom</span> and <span className='font-bold text-color-2d'>Toyota Motors Manufacturing Canada</span> as a software development co-op. These experiences have been invaluable ifor building my skills and understanding, especially in the transportation industry. I'm really passionate about making transportation more eco-friendly and doing my part to help the planet.</>;
+export const aboutFuture = <>Looking ahead, I want to earn my P.Eng designation and work with a company that's pushing the boundaries of sustainable and innovative technologies.</>;
+export const aboutSkills = <>Here are some of the technologies I've worked with:</>;
+export const aboutSkillsLanguages = <><span className='font-bold text-color-2d'>Languages:</span> Javascript, HTML/CSS, C#, C++, Java</>;
+export const aboutSkillsFrameworks = <><span className='font-bold text-color-2d'>Framworks & Libraries:</span> React, Redux, .NET</>;
+export const aboutSkillsTools = <><span className='font-bold text-color-2d'>Tools & Databases:</span> Docker, Redis, SQL, Git, SVN, Visual Studio, Visual Studio Code, Azure DevOps</>;
+export const aboutSkillsClosing = <>I'm always eager to learn more and keep up with the latest technologies.</>;
+export const aboutFunFacts = <>When I’m not coding or studying, you’ll likely find me at the gym, powerlifting, or rock climbing &#x1f4aa;. I’m also a big bookworm and love discovering new reads.</>;
 
 // Contact form
 export const formspreeEndpoint = 'https://formspree.io/f/xnnanjvw';

@@ -2,13 +2,13 @@ import { experiences } from '../data';
 
 const Experience = () => {
     return (
-        <div className='font-body text-main-text-color-1'>
+        <div className='font-body text-text-color'>
             {
                 experiences ? experiences.map((experience, key) => (
                     <div key={key} className='mt-4 md:flex md:gap-5 '>
                         <div className='font-semibold mb-2 mt-2 md:w-1/6'>{experience.start} &ndash; {experience.end}</div>
 
-                        <div className='group bg-background-color border-main-text-color-1 border-[2px] rounded-lg p-5 md:w-5/6'>
+                        <div className='group bg-background-color border-text-color border-[2px] rounded-lg p-5 md:w-5/6'>
                             <a href={experience.link} target='_blank' rel='noreferrer'>
 
                                 <h1 className='text-xl highlight-on-hover font-bold'>{experience.position} &#x2022; {experience.company}</h1>

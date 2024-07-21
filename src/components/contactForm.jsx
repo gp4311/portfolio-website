@@ -9,7 +9,7 @@ const ContactForm = () => {
                     Name
                 </label>
                 <input
-                    className='w-full max-w-xl rounded-md p-2 text-main-text-color-1 border-2 border-color-1e outline-2 outline-main-text-color-1'
+                    className='w-full max-w-xl rounded-md p-2 text-text-color border-2 border-color-1b outline-2 outline-text-color'
                     type='text'
                     name='name'
                     id='name'
@@ -22,7 +22,7 @@ const ContactForm = () => {
                     Email
                 </label>
                 <input
-                    className='w-full max-w-xl rounded-md p-2 text-main-text-color-1 border-2 border-color-1e outline-2 outline-main-text-color-1'
+                    className='w-full max-w-xl rounded-md p-2 text-text-color border-2 border-color-1b outline-2 outline-text-color'
                     type='text'
                     name='email'
                     id='email'
@@ -35,7 +35,7 @@ const ContactForm = () => {
                     Message
                 </label>
                 <textarea
-                    className='w-full max-w-xl h-32 rounded-md p-2 text-main-text-color-1 border-2 border-color-1e outline-2 outline-main-text-color-1'
+                    className='w-full max-w-xl h-32 rounded-md p-2 text-text-color border-2 border-color-1b outline-2 outline-text-color'
                     name='name'
                     id='message'
                     placeholder='Message'
@@ -44,12 +44,12 @@ const ContactForm = () => {
             </div>
             <div className='relative inline-block w-fit self-center'>
                 <input
-                    className='w-[100px] text-lg text-main-text-color-1 font-heading bg-background-color py-1 px-3 border-[2px] border-main-text-color-1
+                    className='w-[100px] text-lg text-text-color font-heading bg-background-color py-1 px-3 border-[2px] border-text-color
                          relative z-10 inline-block transform transition-transform duration-150 hover:translate-x-1 hover:translate-y-1'
                     type='submit'
                     value='Submit'
                 />
-                <span className='w-[100px] absolute inset-0 bg-main-text-color-1 transform translate-x-1 translate-y-1 z-0'></span>
+                <span className='w-[100px] absolute inset-0 bg-text-color transform translate-x-1 translate-y-1 z-0'></span>
             </div>
         </form>
     )

@@ -4,10 +4,10 @@ import { FaArrowUpRightFromSquare } from "react-icons/fa6";
 
 const Projects = ({ projects }) => {
     return (
-        <div className='font-body text-main-text-color-1 md:grid md:grid-cols-2 lg:grid-cols-3'>
+        <div className='font-body text-text-color gap-5 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3'>
             {
                 projects ? projects.map((project, key) => (
-                    <div key={key} className='group bg-background-color border-main-text-color-1 border-[2px] rounded-lg p-5 m-3'>
+                    <div key={key} className='group bg-background-color border-text-color border-[2px] rounded-lg p-5'>
                         <img src={project.image} alt='' className='object-contain object-top w-full h-[200px] rounded-lg mb-5 grayscale group-hover:grayscale-0 transition duration-500'></img>
 
                         <div className='flex justify-between'>

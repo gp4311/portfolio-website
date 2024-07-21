@@ -26,7 +26,7 @@ const ProjectsTable = ({ projects }) => {
 
     return (
         <div className='w-full'>
-            <table className='text-main-text-color-1 font-body w-full'>
+            <table className='text-text-color font-body w-full'>
                 <thead>
                     <tr className='font-bold text-left text-sm border-b-2 border-color-3c'>
                         <th className='hidden sm:table-cell px-3 py-5'>Name</th>
@@ -40,7 +40,7 @@ const ProjectsTable = ({ projects }) => {
                     {
                         projects.map((project, key) => (
                             <tr key={key} className='border-b-2 border-color-3b'>
-                                <td className='flex justify-between gap-5 p-3 font-bold'>
+                                <td className='flex justify-between gap-5 p-3 font-bold text-lg'>
                                     {project.name}
                                     <div className='flex gap-5 justify-end items-center sm:hidden'>
                                         {
