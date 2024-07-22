@@ -18,7 +18,7 @@ const About = () => {
                 </div>
             </section>
 
-            <section id='experience' className='pt-16 flex flex-col md:flex-row md:items-center md:justify-between md:gap-20'>
+            <section id='experience' className='pt-24 flex flex-col md:flex-row md:items-center md:justify-between md:gap-20'>
                 <div className='w-full md:w-1/3'>
                     <Background />
                 </div>

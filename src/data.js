@@ -73,7 +73,7 @@ export const experiences = [
         position: 'Software Developer Intern',
         company: 'Alstom',
         link: 'https://www.alstom.com/press-releases-news/2023/11/alstom-and-partners-celebrate-launch-edmonton-valley-line-southeast-lrt',
-        description: 'Developed a critical algorithm for Edmonton\'s Valley Line Southeast LRT project.',
+        description: 'I developed a critical algorithm for Edmonton\'s Valley Line Southeast LRT project. This algorithm calculates the aggregate stop time of a train to generate relief events in the case of a delayed trip.',
         start: 'Jan 2023',
         end: 'Apr 2023',
         technologies: ['Algorithm Development', 'C#', '.NET', 'SCADA']
@@ -86,6 +86,7 @@ export const projects = [
         name: 'Portfolio Website',
         description: <>I designed and developed this portfolio website using <span className='italic'>React</span> and <span className='italic'>Tailwind CSS</span>.</>,
         githubRepo: 'https://github.com/gp4311/portfolio-website',
+        link: 'https://gehnaapahwa.vercel.app',
         technologies: ['React', 'Javascript', 'Tailwind CSS', 'UX/UI'],
         image: '/images/portfolio-website.png'
     },
@@ -99,7 +100,7 @@ export const projects = [
 ];
 
 // About me
-export const aboutIntroduction = <><span className='font-bold text-color-2d'>Hi, I'm Gehnaa! &#128075; </span> <br></br>I love tackling complex problems and creating cool things—whether that's <span className='text-color-2d'>apps</span>, <span className='text-color-2d'>websites</span>, or <span className='text-color-2d'>systems.</span></>;
+export const aboutIntroduction = <><span className='font-bold text-color-2d text-2xl'>Hi, I'm Gehnaa! &#128075; </span> <br></br>I love tackling complex problems and creating cool things—whether that's <span className='text-color-2d'>apps</span>, <span className='text-color-2d'>websites</span>, or <span className='text-color-2d'>systems.</span></>;
 export const aboutSchool = <>I'm currently a <span className='font-bold text-color-2d'>Systems Design Engineering</span> student at the University of Waterloo. I chose this field because it gives me a chance to learn about all sorts of engineering disciplines, giving me a broad view of technology and innovation.</>;
 export const aboutWork = <>I've had some awesome experiences working at <span className='font-bold text-color-2d'>Alstom</span> and <span className='font-bold text-color-2d'>Toyota Motors Manufacturing Canada</span> as a software development co-op. These experiences have been invaluable for building my skills and understanding, especially in the transportation industry. I'm really passionate about making transportation more eco-friendly and doing my part to help the planet.</>;
 export const aboutFuture = <>Looking ahead, I want to earn my P.Eng designation and work with a company that's pushing the boundaries of sustainable and innovative technologies.</>;

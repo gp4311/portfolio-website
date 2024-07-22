@@ -3,13 +3,13 @@ import { formspreeEndpoint } from '../data';
 
 const ContactForm = () => {
     return (
-        <form action={formspreeEndpoint} method='post' className='flex flex-col w-full max-w-xl gap-5 font-body'>
+        <form action={formspreeEndpoint} method='post' className='flex flex-col w-full max-w-3xl gap-5 font-body'>
             <div>
                 <label htmlFor='name' hidden>
                     Name
                 </label>
                 <input
-                    className='w-full max-w-xl rounded-md p-2 text-text-color border-2 border-color-1b outline-2 outline-text-color'
+                    className='w-full max-w-3xl rounded-md p-2 text-text-color border-2 border-color-1b outline-2 outline-text-color'
                     type='text'
                     name='name'
                     id='name'
@@ -22,7 +22,7 @@ const ContactForm = () => {
                     Email
                 </label>
                 <input
-                    className='w-full max-w-xl rounded-md p-2 text-text-color border-2 border-color-1b outline-2 outline-text-color'
+                    className='w-full max-w-3xl rounded-md p-2 text-text-color border-2 border-color-1b outline-2 outline-text-color'
                     type='text'
                     name='email'
                     id='email'
@@ -35,7 +35,7 @@ const ContactForm = () => {
                     Message
                 </label>
                 <textarea
-                    className='w-full max-w-xl h-32 rounded-md p-2 text-text-color border-2 border-color-1b outline-2 outline-text-color'
+                    className='w-full max-w-3xl h-32 rounded-md p-2 text-text-color border-2 border-color-1b outline-2 outline-text-color'
                     name='name'
                     id='message'
                     placeholder='Message'
