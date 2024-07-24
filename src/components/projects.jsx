@@ -11,7 +11,7 @@ const Projects = ({ projects }) => {
                         <img src={project.image} alt='' className='object-contain object-top w-full h-[200px] rounded-lg mb-5 grayscale group-hover:grayscale-0 transition duration-500'></img>
 
                         <div className='flex justify-between'>
-                            <h1 className='text-xl font-bold text-center group-hover:text-color-2a transition duration-500'>{project.name}</h1>
+                            <h1 className='text-xl font-bold text-center group-hover:text-color-2b transition duration-500'>{project.name}</h1>
 
                             <div className='flex gap-5 justify-end items-center'>
                                 {

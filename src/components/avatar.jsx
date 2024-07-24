@@ -5,7 +5,7 @@ import { ReactComponent as AvatarSvg } from '../assets/avatar.svg';
 const Avatar = () => {
     return (
         <div className='flex flex-col justify-center items-center md:flex-row-reverse md:gap-20'>
-            <div className='lg:w-[512px] lg:h-[400px]'>
+            <div className='lg:w-[512px] lg:h-[512px]'>
                 <AvatarSvg />
             </div>
             <div className='max-w-[500px] flex flex-col gap-2'>
