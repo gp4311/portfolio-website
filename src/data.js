@@ -31,7 +31,7 @@ export const avatarPosition = <>Systems Design Engineering Student @ <span class
 export const footer = <>Developed in <span className='italic'>Visual Studio Code</span>. Built with <span className='italic'>React</span> and <span className='italic'>Tailwind CSS</span>, and deployed via <span className='italic'>Vercel</span>. Text set in Calistoga and IBM Plex Sans fonts.</>;
 
 // Resume
-export const resumeUrl = 'https://drive.google.com/file/d/1W9Jszl7nj3eG4foTrvmvIOJXuV16toEA/view?usp=sharing';
+export const resumeUrl = 'https://drive.google.com/file/d/1qRwgmqOZ1dD-gltYLLn3ETuPwuyrIfsa/view?usp=sharing';
 
 // Social
 export const social = [
