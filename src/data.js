@@ -57,7 +57,7 @@ export const experiences = [
         link: 'https://tmmc.ca/en/',
         description: 'I contributed to the development of a software system for monitoring and analyzing real-time data from robotic systems. I redesigned the backend of the application, migrating it from SQLite to Redis to enhance performance and scalability, and containerized the backend for deployment.',
         start: 'May 2024',
-        end: 'Present',
+        end: 'Aug 2024',
         technologies: ['.NET', 'React', 'Docker', 'Redis', 'SQL', 'Javascript']
     },
     {
@@ -82,6 +82,13 @@ export const experiences = [
 
 // Projects
 export const projects = [
+    {
+        name: 'Route Optimizer',
+        description: <>I built a route optimizer with a <span className='italic'>React</span> frontend and an <span className='italic'>ASP.NET Core Web API</span> backend that quickly finds the shortest path for trips with multiple stops using the <a href='https://developers.google.com/maps/documentation/distance-matrix' target='_blank' rel='noreferrer' className='italic text-color-2c hover:underline'>Distance Matrix Google Maps API</a>.</>,
+        githubRepo: 'https://github.com/gp4311/route-optimizer',
+        technologies: ['ASP.NET Core', 'React', 'Javascript', 'CSS'],
+        image: '/images/route-optimizer.jpg'
+    },
     {
         name: 'Portfolio Website',
         description: <>I designed and developed this portfolio website using <span className='italic'>React</span> and <span className='italic'>Tailwind CSS</span>.</>,
