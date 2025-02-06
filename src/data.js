@@ -83,6 +83,13 @@ export const experiences = [
 // Projects
 export const projects = [
     {
+        name: 'Wordle Bot',
+        description: <>I built a <span className='italic'>Python</span> based automated solver for the popular <a href='https://www.nytimes.com/games/wordle/index.html' target='_blank' rel='noreferrer' className='italic text-color-2c hover:underline'>Wordle</a> game.</>,
+        githubRepo: 'https://github.com/gp4311/wordle-bot',
+        technologies: ['Python','Search Algorithms','Filtering Logic'],
+        image: '/images/wordle-bot.jpg'
+    },
+    {
         name: 'Route Optimizer',
         description: <>I built a route optimizer with a <span className='italic'>React</span> frontend and an <span className='italic'>ASP.NET Core Web API</span> backend that quickly finds the shortest path for trips with multiple stops using the <a href='https://developers.google.com/maps/documentation/distance-matrix' target='_blank' rel='noreferrer' className='italic text-color-2c hover:underline'>Distance Matrix Google Maps API</a>.</>,
         githubRepo: 'https://github.com/gp4311/route-optimizer',
@@ -112,7 +119,7 @@ export const aboutSchool = <>I'm currently a <span className='font-bold text-col
 export const aboutWork = <>I've had some awesome experiences working at <span className='font-bold text-color-2d'>Alstom</span> and <span className='font-bold text-color-2d'>Toyota Motors Manufacturing Canada</span> as a software development co-op. These experiences have been invaluable for building my skills and understanding, especially in the transportation industry. I'm really passionate about making transportation more eco-friendly and doing my part to help the planet.</>;
 export const aboutFuture = <>Looking ahead, I want to earn my P.Eng designation and work with a company that's pushing the boundaries of sustainable and innovative technologies.</>;
 export const aboutSkills = <>Here are some of the technologies I've worked with:</>;
-export const aboutSkillsLanguages = <><span className='font-bold text-color-2d'>Languages:</span> Javascript, HTML/CSS, C#, C++, Java</>;
+export const aboutSkillsLanguages = <><span className='font-bold text-color-2d'>Languages:</span> Javascript, Python, C#, C++, Java, HTML/CSS</>;
 export const aboutSkillsFrameworks = <><span className='font-bold text-color-2d'>Framworks & Libraries:</span> React, Redux, .NET</>;
 export const aboutSkillsTools = <><span className='font-bold text-color-2d'>Tools & Databases:</span> Docker, Redis, SQL, Git, SVN, Visual Studio, Visual Studio Code, Azure DevOps</>;
 export const aboutSkillsClosing = <>I'm always eager to learn more and keep up with the latest technologies.</>;
