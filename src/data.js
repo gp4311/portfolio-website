@@ -31,7 +31,7 @@ export const avatarPosition = <>Systems Design Engineering Student @ <span class
 export const footer = <>Developed in <span className='italic'>Visual Studio Code</span>. Built with <span className='italic'>React</span> and <span className='italic'>Tailwind CSS</span>, and deployed via <span className='italic'>Vercel</span>. Text set in Calistoga and IBM Plex Sans fonts.</>;
 
 // Resume
-export const resumeUrl = 'https://drive.google.com/file/d/1qRwgmqOZ1dD-gltYLLn3ETuPwuyrIfsa/view?usp=sharing';
+export const resumeUrl = 'https://drive.google.com/file/d/1erZ_HtvSafRjszuYUcD5STow8Kzj2UhB/view?usp=sharing';
 
 // Social
 export const social = [
@@ -52,7 +52,16 @@ export const social = [
 // Experience
 export const experiences = [
     {
-        position: 'Information Systems Co-op Analyst',
+        position: 'Information Systems Engineering Co-op Analyst',
+        company: 'Toyota Motors Manufacturing Canada',
+        link: 'https://tmmc.ca/en/',
+        description: 'I developed E-Manifest, a system to eliminate paper manifests on the plant floor, projected to save $1M annually. I extended battery life of Raspberry Pi-based prototype by 10+ hours through OS configuration and code optimization., implemented backend services for server-device communication, and built a web application for line workers to manage manifests.',
+        start: 'Jan 2025',
+        end: 'Apr 2025',
+        technologies: ['Raspberry Pi', 'Linux', 'Angular', 'Node.js', 'Selenium']
+    },
+    {
+        position: 'Information Systems Engineering Co-op Analyst',
         company: 'Toyota Motors Manufacturing Canada',
         link: 'https://tmmc.ca/en/',
         description: 'I contributed to the development of a software system for monitoring and analyzing real-time data from robotic systems. I redesigned the backend of the application, migrating it from SQLite to Redis to enhance performance and scalability, and containerized the backend for deployment.',
@@ -119,9 +128,9 @@ export const aboutSchool = <>I'm currently a <span className='font-bold text-col
 export const aboutWork = <>I've had some awesome experiences working at <span className='font-bold text-color-2d'>Alstom</span> and <span className='font-bold text-color-2d'>Toyota Motors Manufacturing Canada</span> as a software development co-op. These experiences have been invaluable for building my skills and understanding, especially in the transportation industry. I'm really passionate about making transportation more eco-friendly and doing my part to help the planet.</>;
 export const aboutFuture = <>Looking ahead, I want to earn my P.Eng designation and work with a company that's pushing the boundaries of sustainable and innovative technologies.</>;
 export const aboutSkills = <>Here are some of the technologies I've worked with:</>;
-export const aboutSkillsLanguages = <><span className='font-bold text-color-2d'>Languages:</span> Javascript, Python, C#, C++, Java, HTML/CSS</>;
-export const aboutSkillsFrameworks = <><span className='font-bold text-color-2d'>Framworks & Libraries:</span> React, Redux, .NET</>;
-export const aboutSkillsTools = <><span className='font-bold text-color-2d'>Tools & Databases:</span> Docker, Redis, SQL, Git, SVN, Visual Studio, Visual Studio Code, Azure DevOps</>;
+export const aboutSkillsLanguages = <><span className='font-bold text-color-2d'>Languages:</span> Javascript, TypeScript, Python, C#, C++, Java, HTML/CSS, MATLAB</>;
+export const aboutSkillsFrameworks = <><span className='font-bold text-color-2d'>Framworks & Libraries:</span> Angular, React, Redux, Node.js, .NET, Selenium, xUnit, Moq</>;
+export const aboutSkillsTools = <><span className='font-bold text-color-2d'>Tools & Databases:</span> Docker, Redis, PostgreSQL, Git, SVN, Visual Studio, Visual Studio Code, Eclipse, Azure DevOps</>;
 export const aboutSkillsClosing = <>I'm always eager to learn more and keep up with the latest technologies.</>;
 export const aboutFunFacts = <>When I’m not coding or studying, you’ll likely find me at the gym, powerlifting, or rock climbing &#x1f4aa;. I’m also a big bookworm and love discovering new reads.</>;
 
