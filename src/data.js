@@ -92,6 +92,13 @@ export const experiences = [
 // Projects
 export const projects = [
     {
+        name: 'Hive',
+        description: <>I developed <span className='italic'>Hive</span>, a full-stack web application that helps engineering teams manage and trace <span className='italic'>project requirements</span>, <span className='italic'>test cases</span>, and <span className='italic'>subsystems</span> with role-based access control and live traceability matrices.</>,
+        githubRepo: 'https://github.com/gp4311/hive',
+        technologies: ['Angular', 'Node.js', 'PostgreSQL', 'JWT Auth', 'REST API'],
+        image: '/images/hive.png'
+    },
+    {
         name: 'Wordle Bot',
         description: <>I built a <span className='italic'>Python</span> based automated solver for the popular <a href='https://www.nytimes.com/games/wordle/index.html' target='_blank' rel='noreferrer' className='italic text-color-2c hover:underline'>Wordle</a> game.</>,
         githubRepo: 'https://github.com/gp4311/wordle-bot',
